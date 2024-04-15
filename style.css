@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 10px 20px;
+}
+
+.profile {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    cursor: default;
+}
+
+.profile:hover {
+    color: #13A1B7;
+}
+
+.buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.buttons li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons li:last-child {
+    margin-right: 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons a:hover {
+    color: #13A1B7;
+}
+
+.myprofile {
+    font-weight: bolder;
+}
+
+.signout {
+    background-color: #13A1B7;
+    color: white;
+    padding: 5px 10px;
+    border: 3px solid #000000;
+    box-shadow: #000 3px 3px;
+    cursor: pointer;
+    
+}
+
+.signout:hover {
+    background-color: #13a1b7c5;
+}
